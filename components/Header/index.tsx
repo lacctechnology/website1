@@ -8,21 +8,22 @@ const Header: NextPage = () => {
   return (
     <div className={styles.header}>
       <div className={styles.header__logo}>
-        <Image src='/logo.png' alt='logo' width={50} height={50} />
+        <Image src="/logo.png" alt="logo" width={50} height={50} />
       </div>
+      <input className={styles.input} type="text" />
       <div className={styles.header__nav}>
         <ul>
           <li>
-            <Link href='#'>Home</Link>
+            <Link href="#">Home</Link>
           </li>
           <li>
-            <Link href='#'>Ofertas</Link>
+            <Link href="#">Ofertas</Link>
           </li>
           <li>
-            <Link href='#'>Tienda</Link>
+            <Link href="#">Tienda</Link>
           </li>
           <li>
-            <Link href='#'>About</Link>
+            <Link href="#">About</Link>
           </li>
         </ul>
       </div>
